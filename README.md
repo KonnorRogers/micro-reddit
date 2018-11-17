@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Project created to get user to using ActiveRecord and Models w/o the overhead of http requests etc.. Meant to be tested using rails console, however, i added tests. No email regex or password regex added.
 
-Things you may want to cover:
+* This is meant to be a pure thinking process of creating a 'micro-reddit' with posts, users, and comments
+
+* [TheOdinProject](https://www.theodinproject.com/lessons/building-with-active-record-ruby-on-rails)
 
 * Ruby version
+* 2.5.1
 
 * System dependencies
+* Rails 5.2.1
+* Bundler
+    
+    gem install bundler
 
-* Configuration
+    bundle install
 
-* Database creation
+* Database creation / initialization
 
-* Database initialization
+    rails db:migrate
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+    rails test
 
-* Deployment instructions
-
-* ...
