@@ -8,6 +8,7 @@ class UserTest < ActiveSupport::TestCase
       name: 'konnor',
       email: 'konnor@example.com',
       password: 'example',
+      password_confirmation: 'example'
     )
   end
 
