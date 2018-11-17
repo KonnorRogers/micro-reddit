@@ -10,9 +10,9 @@
   - Rails 5.2.1
   - Bundler
     
-      gem install bundler
+        gem install bundler
 
-      bundle install
+        bundle install
 
 * Database creation / initialization
 
