@@ -1,0 +1,19 @@
+# Users
+  ## name
+  ## email
+  ## password
+
+  has_many posts, comments
+
+# Posts
+  ## Title
+  ## Text
+
+  belongs_to user
+  has_many comments
+
+# Comments
+  ## text
+
+  belongs_to user
+  belongs_to post
